@@ -64,7 +64,7 @@ const Print_Table = (data) => {
     const table = document.querySelectorAll('table')[0].childNodes[1]
     const Validate = (element) => { // avoids null data
         if (element) return element
-        return ''
+        return '-'
     }
     data.map(element => {
         const id_validated = Validate(element.id)
