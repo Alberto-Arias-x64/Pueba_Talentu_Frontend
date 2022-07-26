@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favico.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+    <title>Prueba Técnica | Alberto Arias</title>
 </head>
 
 <body>
@@ -20,7 +21,7 @@
     </header>
     <main>
         <section id="principal">
-            <div>
+            <div id="inputs_fields">
                 <form>
                     <div class="normalized_space">
                         <div class="f_row">
@@ -48,12 +49,12 @@
                             <ion-icon name="calendar-outline"></ion-icon>
                             <p>Fecha de Nacimiento:</p>
                         </div>
-                        <input type="date" max="" required name="date_of_birthday">
+                        <input type="date" min='1920-01-01' required name="date_of_birthday">
                     </div>
                     <button onclick="Send_Form()">Enviar</button>
                 </form>
             </div>
-            <div>
+            <div id="table_fields">
                 <table>
                     <tr>
                         <th>ID</th>
@@ -65,7 +66,10 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>Copyright © 2022 | Privacy Policy</p>
+        <p>Website designed and developed by <a href="https://alberto-arias-x64.github.io/Pagina-web/">Alberto_Arias_x64</a></p>
+    </footer>
     <script src="./main.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
