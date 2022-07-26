@@ -64,8 +64,7 @@ button{
     transition: all 200ms ease-in-out;
 }
 button:hover{
-    font-size: 1.5rem;
-    color: aliceblue;
+    color: var(--secondary_color);
 
     background-color: var(--principal_color_dark);
     border: var(--secondary_color) 1px solid;
