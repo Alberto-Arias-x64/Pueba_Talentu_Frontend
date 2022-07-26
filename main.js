@@ -36,13 +36,13 @@ const Send_Form = () => {
     }
 
     if (email === '' || first_name === '' || last_name === '' || date_of_birthday === ''){ // check all field
-        alert('campo vacio')
+        swal('campo vacio','','warning')
         return
     }
 
     const re = new RegExp('^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$') // regular expression to validate email field
     if (!re.test(email)){
-        alert('email no valido')
+        swal('email no valido','','error')
         return
     }
 
@@ -57,6 +57,7 @@ const Send_Form = () => {
     window.localStorage.setItem('data_users',JSON.stringify(local_data))
     Print_Table([new_user])
     Clear_Fields()
+    swal('Usuario creado correctamente','','success')
 }
 
 const Print_Table = (data) => {
