@@ -1,0 +1,58 @@
+:root{
+    --principal_color: #242424;
+    --side_bar: #4A4A4A;
+    --secondary_color: #0078D4;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: var(--principal_color);
+    overflow-x: hidden;
+}
+
+form{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 0.2rem;
+
+    font-size: 1.9rem;
+    color:aliceblue;
+    font-weight: 200;
+}
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: var(--side_bar) 1px solid;
+    outline: none;
+
+    color:aliceblue;
+    font-size: 1.5rem;
+}
+table{
+    font-size: 1.2rem;
+    color: aliceblue;
+
+    border-collapse: collapse;
+}
+th,td{
+    border-top: 1px var(--side_bar) solid;
+    border-bottom: 1px var(--side_bar) solid;
+}
+
+.f_row{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+#principal{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1rem;
+}

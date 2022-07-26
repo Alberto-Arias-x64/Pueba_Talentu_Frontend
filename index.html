@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <section id="principal">
+            <div>
+                <form>
+                    <div class="f_row">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <p>Correo Electronico:</p>
+                    </div>
+                    <input type="email" required name="email" placeholder="alberto@mail.com">
+                    <div class="f_row">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <p>Nombres:</p>
+                    </div>
+                    <input type="text" required name="first_name" placeholder="Alberto">
+                    <div class="f_row">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <p>Apellidos:</p>
+                    </div>
+                    <input type="text" required name="last_name" placeholder="Arias">
+                    <div class="f_row">
+                        <ion-icon name="calendar-outline"></ion-icon>
+                        <p>Fecha de Nacimiento:</p>
+                    </div>
+                    <input type="date" required name="date_of_birthday">
+                    <button onclick="Send_Form()">Enviar</button>
+                </form>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Correo</th>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="./main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
