@@ -28,10 +28,10 @@ https://alberto-arias-x64.github.io/Pueba_Talentu_Frontend/
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Color principal | ![#242424](https://via.placeholder.com/10/242424?text=+) #242424 |
-| Variante oscura color principal | ![#1E1E1E](https://via.placeholder.com/10/1E1E1E?text=+) #1E1E1E |
-| Variante clara color principal | ![#4A4A4A](https://via.placeholder.com/10/4A4A4A?text=+) #4A4A4A |
-| Color secundario | ![#806600](https://via.placeholder.com/10/806600?text=+) #806600 |
+| Color principal | #242424 |
+| Variante oscura color principal | #1E1E1E |
+| Variante clara color principal | #4A4A4A |
+| Color secundario | #806600 |
 
 
 ## Lessons Learned
