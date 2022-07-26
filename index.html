@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -15,31 +15,41 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <h1>Prueba Técnica Talentu para desarrolladores PHP Frontend</h1>
+    </header>
     <main>
         <section id="principal">
             <div>
                 <form>
-                    <div class="f_row">
-                        <ion-icon name="mail-outline"></ion-icon>
-                        <p>Correo Electronico:</p>
+                    <div class="normalized_space">
+                        <div class="f_row">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <p>Correo Electronico:</p>
+                        </div>
+                        <input type="email" required name="email" placeholder="alberto@mail.com">
                     </div>
-                    <input type="email" required name="email" placeholder="alberto@mail.com">
-                    <div class="f_row">
-                        <ion-icon name="person-outline"></ion-icon>
-                        <p>Nombres:</p>
+                    <div class="normalized_space">
+                        <div class="f_row">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <p>Nombres:</p>
+                        </div>
+                        <input type="text" required name="first_name" placeholder="Alberto">
                     </div>
-                    <input type="text" required name="first_name" placeholder="Alberto">
-                    <div class="f_row">
-                        <ion-icon name="person-outline"></ion-icon>
-                        <p>Apellidos:</p>
+                    <div class="normalized_space">
+                        <div class="f_row">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <p>Apellidos:</p>
+                        </div>
+                        <input type="text" required name="last_name" placeholder="Arias">
                     </div>
-                    <input type="text" required name="last_name" placeholder="Arias">
-                    <div class="f_row">
-                        <ion-icon name="calendar-outline"></ion-icon>
-                        <p>Fecha de Nacimiento:</p>
+                    <div class="normalized_space">
+                        <div class="f_row">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            <p>Fecha de Nacimiento:</p>
+                        </div>
+                        <input type="date" required name="date_of_birthday">
                     </div>
-                    <input type="date" required name="date_of_birthday">
                     <button onclick="Send_Form()">Enviar</button>
                 </form>
             </div>
